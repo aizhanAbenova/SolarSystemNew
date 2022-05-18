@@ -14,7 +14,7 @@ public class Main {
        
         //        adding features to our sun
         FeatureSun Xfact= new FeatureSun();
-        Xfact.color=green;
+        Xfact.color="green";
         Xfact.radius="1000000000km";
         Xfact.heat="309324934898kj";
 
