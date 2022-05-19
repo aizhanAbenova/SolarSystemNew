@@ -20,9 +20,15 @@ public class Main {
 
         //adding the features for star in the solar system
         FeatureStars FacX = new FeatureStars();
-        FacX.color=green;
+        FacX.color="green";
         FacX.radius="738y4932749km";
         FacX.size="9999999999m";
+
+          // adding features for Planet2
+        Planet2 Olso = new Planet2();
+        Olso.name="Ozhan";
+        Olso.size="694254km";
+        Olso.color="pink";
     }
 }
 
