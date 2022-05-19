@@ -9,8 +9,6 @@ public class Main {
         FactorX.Moon="4";
         FactorX.Planet="2";
         FactorX.Star="10000";
-
-
        
         //        adding features to our sun
         FeatureSun Xfact= new FeatureSun();
@@ -24,11 +22,19 @@ public class Main {
         FacX.radius="738y4932749km";
         FacX.size="9999999999m";
 
+ Planet2
           // adding features for Planet2
         Planet2 Olso = new Planet2();
         Olso.name="Ozhan";
         Olso.size="694254km";
         Olso.color="pink";
+
+        // adding features for planet1
+        Planet1Feature planet1Feature=new Planet1Feature();
+        planet1Feature.color="blue";
+        planet1Feature.size="63547263452734";
+        planet1Feature.name="Omikron";
+ main
     }
 }
 
