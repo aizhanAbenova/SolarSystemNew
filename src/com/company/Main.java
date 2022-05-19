@@ -9,8 +9,6 @@ public class Main {
         FactorX.Moon="4";
         FactorX.Planet="2";
         FactorX.Star="10000";
-
-
        
         //        adding features to our sun
         FeatureSun Xfact= new FeatureSun();
@@ -20,9 +18,15 @@ public class Main {
 
         //adding the features for star in the solar system
         FeatureStars FacX = new FeatureStars();
-        FacX.color=green;
+        FacX.color="green";
         FacX.radius="738y4932749km";
         FacX.size="9999999999m";
+
+        // adding features for planet1
+        Planet1Feature planet1Feature=new Planet1Feature();
+        planet1Feature.color="blue";
+        planet1Feature.size="63547263452734";
+        planet1Feature.name="Omikron";
     }
 }
 
